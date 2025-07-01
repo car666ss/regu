@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IA Responsable - Fondo dinámico por scroll</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="background"></div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">🤖 IA Responsable</div>
+      <ul class="menu">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#info">¿Por qué importa?</a></li>
+        <li><a href="#principios">Principios</a></li>
+        <li><a href="#recomendados">Herramientas</a></li>
+        <li><a href="#casos">Casos</a></li>
+        <li><a href="#comentarios">Comentarios</a></li>
+      </ul>
+      <label class="switch" title="Cambiar tema">
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider"></span>
+      </label>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <h1>Inteligencia Artificial Responsable</h1>
+      <p>
+        Diseñamos el futuro con ética, equidad y humanidad. Descubre cómo la IA puede servir a todos de forma justa y transparente.
+      </p>
+    </section>
+
+    <section id="info" class="info">
+      <h2>¿Por qué importa?</h2>
+      <p>
+        La IA Responsable garantiza que las decisiones algorítmicas respeten los derechos humanos, minimicen sesgos y promuevan la justicia social.
+      </p>
+    </section>
+
+    <section id="principios" class="principios">
+      <h2>Principios Clave</h2>
+      <ul>
+        <li><strong>Transparencia:</strong> Procesos auditables y comprensibles.</li>
+        <li><strong>Justicia:</strong> Algoritmos sin discriminación.</li>
+        <li><strong>Privacidad:</strong> Respeto por los datos personales.</li>
+        <li><strong>Seguridad:</strong> Prevención de usos maliciosos.</li>
+      </ul>
+    </section>
+
+    <section id="recomendados" class="Recomndados">
+      <h2>Recomendación sobre herramientas de IA</h2>
+      <ul>
+        <li><strong>Chat GPT:</strong> Generador de texto eficiente.</li>
+        <li><strong>Canva:</strong> Plataforma de diseño fácil y rápido.</li>
+        <li><strong>Fliki:</strong> Genera y edita contenido multimedia.</li>
+      </ul>
+    </section>
+
+    <section id="casos" class="casos">
+      <h2>Casos Reales</h2>
+      <div class="card">
+        <h3>✔️ Diagnóstico Médico Asistido</h3>
+        <p>La IA mejora la detección temprana de enfermedades como el cáncer, ayudando a salvar vidas.</p>
+      </div>
+      <div class="card">
+        <h3>❌ Sesgos en Reclutamiento</h3>
+        <p>Algunos sistemas han replicado prejuicios, afectando injustamente a ciertos candidatos.</p>
+      </div>
+    </section>
+
+    <section id="comentarios" class="comentarios">
+      <h2>Deja tu opinión</h2>
+      <form action="https://formsubmit.co/car473ss57@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <input type="email" name="correo" placeholder="Tu correo" required />
+        <textarea name="comentario" placeholder="Tu comentario" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="contador-comentarios">Comentarios registrados: 0</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 IA Responsable. Diseñado con conciencia ✨</p>
+  </footer>
+</body>
+</html>
